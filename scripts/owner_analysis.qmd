@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+author: "Lilly McCormick"
+format: html
+---
+
+## Exercise: Explore, Clean, and Wrangle Data
+
+```{r}
+#| label: library load
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(here)
+library(janitor)
+```
+
+```{r}
+#| label: load data
+lobster_abundance <- read_csv(here("data/Lobster_Abundance_All_Years_20240411.csv"))
+
+```
+
+```{r}
+#test cell
+```
